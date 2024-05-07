@@ -1,0 +1,72 @@
+.footer{
+    padding-top: 5vh;
+    background-color: #d5f7d5;
+    /* set footer to bottom */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ecfdec;
+}
+
+.footer .colum{
+    padding-left: 40px;
+}
+
+.footer .footer-logo img{
+    width:170px;
+    height: auto;
+}
+.footer .footer-text h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #259455;
+}
+.footer .footer-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.footer .footer-text p a{
+    color: #259455;
+    font-weight: 600;
+    
+}
+
+.footer .footer-contact {
+    padding-left: 0px;
+}
+
+.footer .footer-contact h2{
+    color:#259455;
+}
+
+.footer .footer-contact a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.footer .footer-contact .contact-icon{
+    color: #259455;
+    font-size: 1.6rem;
+}
+
+.footer .footer-contact p{
+    color: black;
+    font-size: 20px;
+}
+
+/* footer-icon on hover rotate animation */
+.footer .footer-text .footer-icon{
+    padding-right: 10px;
+    color:black;
+    transition: 0.4s;
+
+}
+
+.footer .footer-text .footer-icon:hover{
+    transform: translateY(-6px);
+
+}

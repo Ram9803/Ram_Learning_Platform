@@ -1,0 +1,45 @@
+.home-container{
+    padding-top: 20vh;
+    background-color: #ecfdec;
+    padding-bottom: 10vh;
+}
+
+
+.header .heading{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(42, 41, 41);
+}
+
+.header .sub-heading{
+    color: #259455;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.header .join-button{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #259455;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+    transition: all .2s ease-in-out;
+}
+
+.header .join-button:hover{
+    transform: scale(1.1);
+    background-color: #259455;
+    color:white;
+    box-shadow: rgba(0,0,0,.05);
+}
+
+.banner{
+    width: 560px;
+    border-radius: 20px;
+}
